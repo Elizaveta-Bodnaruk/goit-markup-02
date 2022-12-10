@@ -122,7 +122,14 @@ color: #434455;
 }
 
 .hero h1 {
+    position: absolute;
+    width: 492px;
+    height: 120px;
+    left: 474px;
+    top: 264px;
+
     font-weight: 700;
+    font-style: normal;
     font-size: 56px;
     line-height: 1;
     align-items: center;
