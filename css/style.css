@@ -81,7 +81,7 @@ color: #434455;
     color: #4D5AE5;
 }
 
-.hero .pointer {
+.main-pointer {
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -94,11 +94,11 @@ color: #434455;
     background-color: #4D5AE5;
  }
 
-.pointer:hover {
+.main-pointer:hover {
     background-color: #4D5AE5;
 }
 
-.pointer:focus {
+.main-pointer:focus {
     background-color: #4D5AE5;
 }
 
