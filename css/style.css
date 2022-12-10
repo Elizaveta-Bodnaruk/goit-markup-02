@@ -93,6 +93,7 @@ color: #434455;
     align-items: center;
 
     background-color: #4D5AE5;
+    border-radius: 4px;
  }
 
 .main-pointer:hover {
@@ -188,9 +189,10 @@ color: #2E2F42;
     color: #2E2F42;
 }
 
-.secondary-text li {
+.image {
     background-color: #FFFFFF;
 }
+
 
 .secondary-text h3 {
     font-weight: 700;
