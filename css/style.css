@@ -194,6 +194,7 @@ color: #2E2F42;
     background-color: #F4F4FD;
 }
 
+
 .secondary-text h2 {
     font-weight: 700;
     font-size: 36px;
@@ -205,10 +206,9 @@ color: #2E2F42;
     color: #2E2F42;
 }
 
-.image {
+.img {
     background-color: #FFFFFF;
 }
-
 
 .secondary-text h3 {
     font-weight: 700;
