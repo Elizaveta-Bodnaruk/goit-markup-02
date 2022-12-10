@@ -85,37 +85,28 @@ color: #434455;
     font-style: normal;
     font-weight: 700;
     line-height: 1.1;
- 
 
-    align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
- 
-
-    flex-direction: row;
     align-items: flex-start;
 
-
     background-color: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0,0,0,0.15);
  }
 
 .pointer:hover {
     background-color: #4D5AE5;
 }
 
-.pointer:focus
+.pointer:focus {
+    background-color: #4D5AE5;
+}
+
  
 
 .hero {
     background-color: #2E2F42;
 }
 
-.pointer:focus {
-    color: #4D5AE5;
-    background-color: var(--color accent); 
-
-}
 
 .buttom .contacts:focus {
     color: #4D5AE5;
@@ -135,7 +126,6 @@ color: #434455;
 .hero button {
     font-weight: 700;
     line-height: 1.1;
-    display: flex;
     align-items: center;
     letter-spacing: 0.04em;
 
@@ -258,8 +248,6 @@ text-transform: uppercase;
 
     color: #4D5AE5;
     background-color: #E5E5E5;
-    box-shadow: opx 4px 4px rgba(0,0,0,0.15);
-    border-radius: 4px;
 }
 
 .pointer { cursor: pointer; } 
