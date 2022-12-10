@@ -111,16 +111,17 @@ color: #434455;
 }
 
 .pointer:hover {
-    color: #4D5AE5;
-    
+    background-color: #4D5AE5;
 }
+
+.pointer:focus
  
 
 .hero {
     background-color: #2E2F42;
 }
 
-.hero .pointer:focus {
+.pointer:focus {
     color: #4D5AE5;
     background-color: var(--color accent); 
 
@@ -199,6 +200,10 @@ color: #2E2F42;
     color: #2E2F42;
 }
 
+.secondary-text li {
+    background-color: #FFFFFF;
+}
+
 .secondary-text h3 {
     font-weight: 700;
     font-size: 20px;
@@ -230,10 +235,15 @@ color: #2E2F42;
 
 .thirdly-logo {
     font-family: Raleway, sans-serif;
+    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.1;
+
+    display: flex;
+    align-items: center;
     letter-spacing: 0.03em;
+text-transform: uppercase;
 
     color: #F4F4FD;
 }
