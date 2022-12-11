@@ -82,10 +82,15 @@ color: #434455;
 }
 
 .main-pointer {
+    display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 16px 32px;
     gap: 10px;
+ 
+    /* Order Servise */
+    width: 106px;
+    height: 19px;
       
     position: absolute;
     width: 170px;
@@ -116,13 +121,7 @@ color: #434455;
 
  
 
-.hero {
-    height: 603px;
-    width: 1440px;
-    left: 0px;
-    top: 72px;
-    border-radius: 0px;
-    
+.hero { 
     background-color: #2E2F42;
 }
 
@@ -140,12 +139,7 @@ color: #434455;
     text-align: center;
     letter-spacing: 0.02em;
 
-    position: absolute;
-
     color: #FFFFFF;
-    background-color: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
 }
 
 
