@@ -259,6 +259,14 @@ text-transform: uppercase;
     border-radius: 4px;
 }
 
+.pointer:hover {
+    background-color: #4D5AE5;
+}
+
+.pointer:focus {
+    background-color: #4D5AE5;
+}
+
 .pointer { cursor: pointer; } 
 
 
