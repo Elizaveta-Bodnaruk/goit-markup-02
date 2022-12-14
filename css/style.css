@@ -82,10 +82,7 @@ color: #434455;
 }
 
 .main-pointer {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
- 
+
     /* Order Servise */
     width: 106px;
     height: 19px;
@@ -252,8 +249,6 @@ text-transform: uppercase;
 
     color: #4D5AE5;
     background-color: #F4F4FD;
-
-    border: 1px solid #E7E9FC;
 }
 
 .pointer:hover {
