@@ -244,14 +244,8 @@ text-transform: uppercase;
 
 /* Main navigation */
 
-.context-menu {
-    padding: 8px 16px;
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
-    background-color: #F4F4FD; 
-}
-
-.context-menu button { 
+.pointer { 
+    font-family: Roboto, sans-serif;
     font-weight: 700;
     line-height: 1.5;
     align-items: center;
@@ -259,7 +253,10 @@ text-transform: uppercase;
     letter-spacing: 0.04em;
 
     color: #4D5AE5;
-    background-color: #E5E5E5;
+    background-color: #F4F4FD;
+
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
 }
 
 .pointer { cursor: pointer; } 
