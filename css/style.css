@@ -85,8 +85,6 @@ color: #434455;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
  
     /* Order Servise */
     width: 106px;
@@ -256,7 +254,6 @@ text-transform: uppercase;
     background-color: #F4F4FD;
 
     border: 1px solid #E7E9FC;
-    border-radius: 4px;
 }
 
 .pointer:hover {
