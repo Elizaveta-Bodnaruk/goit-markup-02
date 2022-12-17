@@ -216,8 +216,7 @@ text-transform: uppercase;
 .pointer { 
     box-sizing: border-box;
     align-items: center;
-    padding: 8px 16px;
-
+    
     width: 116px;
     height: 48px;
 
@@ -229,7 +228,6 @@ text-transform: uppercase;
     text-align: center;
     color: #4D5AE5;
     background-color: #F4F4FD;
-    border: 1px solid #E7E9FC;
 }
 
 .pointer:hover {
