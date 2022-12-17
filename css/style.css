@@ -145,20 +145,14 @@ color: #434455;
 /* Page footer */
 
 .secondary-text {
-    position: absolute;
-    width: 1440px;
-    height: 732px;
-    left: 0px;
-    top: 1551px;
     background-color: #F4F4FD;
 }
 
 .img {
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    position: absolute;
-
     background-color: #FFFFFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .secondary-text h2 {
