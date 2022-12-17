@@ -95,7 +95,6 @@ color: #434455;
     background-color: #2E2F42;
 }
 
-
 .buttom .contacts:focus {
     color: #4D5AE5;
 }
@@ -215,6 +214,13 @@ text-transform: uppercase;
 /* Main navigation */
 
 .pointer { 
+    box-sizing: border-box;
+    align-items: center;
+    padding: 8px 16px;
+
+    width: 116px;
+    height: 48px;
+
     font-family: Roboto, sans-serif;
     font-weight: 700;
     line-height: 1.5;
@@ -223,6 +229,7 @@ text-transform: uppercase;
     text-align: center;
     color: #4D5AE5;
     background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
 }
 
 .pointer:hover {
