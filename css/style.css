@@ -154,8 +154,6 @@ color: #434455;
 }
 
 .img {
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
 
     position: absolute;
