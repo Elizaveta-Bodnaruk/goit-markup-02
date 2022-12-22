@@ -3,6 +3,16 @@
 
  /* Logo */
 
+:root {
+    --brand-color: #2E2F42;
+    --color1:#4D5AE5;
+    --color2:#434455;
+    --color3:#F4F4FD;
+    --color4:#FFFFFF;
+    --color5: #404BBF;
+    --color6: #E7E9FC;
+}
+ 
 .logo {
     font-family: Raleway, sans-serif;
     font-style: normal;
@@ -13,28 +23,31 @@
 
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
-    color: #4D5AE5;
+    color: var(--color1);
 }
+
 
 body {
 font-family: Roboto, sans-serif;
-color: #434455;
+color: var(--brand-color);
 }
+
 
 /* Main navigation */
 
 .link {
-    background-color: #FFFFFF;
-    text-decoration: none;
+    background-color: var(--color4);
+    text-decoration:none;
 }
+
+
 
 .link a {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
 
-    color: #2E2F42;
+    color: var(--brand-color);
 }
 
 .secondary-link a {
@@ -43,28 +56,28 @@ color: #434455;
     line-height: 1.5;
 
     color: #434455;
-    background-color: #FFFFFF;
+    background-color: var(--color4);
 }
     
 /* Hover and focus */
 
 .contacts {
-    color: #2E2F42;
+    color: var(--brand-color);
 }
 
 .contacts:hover {
-    color: #4D5AE5;
+    color: var(--color1);
 }
 
 .contacts:focus {
-    color: #4D5AE5;
+    color: var(--color1);
 }
 .link .contacts:focus {
-    color: #4D5AE5;
+    color: var(--color1);
 }
 
 .secondary-link:focus {
-    color: #4D5AE5;
+    color: var(--color1);
 }
 
 .main-pointer {
@@ -75,28 +88,28 @@ color: #434455;
     line-height: 1.1;
 
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--color4);
     align-items: center;
 
-    background-color: #4D5AE5;
+    background-color: var(--color1);
  }
 
 .main-pointer:hover {
-    background-color: #404BBF;
+    background-color: var(--color5);
 }
 
 .main-pointer:focus {
-    background-color: #404BBF;
+    background-color: var(--color5);
 }
 
  
 
 .hero {
-    background-color: #2E2F42;
+    background-color: var(--brand-color);
 }
 
 .buttom .contacts:focus {
-    color: #4D5AE5;
+    color: var(--color1);
 }
 
 .hero-logo {
@@ -108,7 +121,7 @@ color: #434455;
     text-align: center;
     letter-spacing: 0.02em;
 
-    color: #FFFFFF;
+    color: var(--color4);
 }
 
 
@@ -120,7 +133,7 @@ color: #434455;
     line-height: 1.2;
     letter-spacing: 0.02em;
 
-    color: #2E2F42;
+    color: var(--brand-color);
 }
 
 .text p {
@@ -128,7 +141,7 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02;
 
-    color: #434455;
+    color: var(--color2);
 }
 
 .text h2 {
@@ -139,20 +152,20 @@ color: #434455;
     text-align: center;
     letter-spacing: 0.02em;
 
-    color: #2E2F42;
+    color: var(--brand-color);
 }
 
 /* Page footer */
 
 .secondary-text {
-    background-color: #F4F4FD;
+    background-color: var(--color3);
 }
 
 .img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #FFFFFF;
+    background-color: var(--color4);
 }
 
 .secondary-text h2 {
@@ -163,7 +176,7 @@ color: #434455;
     text-align: center;
     letter-spacing: 0.02em;
 
-    color: #2E2F42;
+    color: var(--brand-color);
 }
 
 .secondary-text h3 {
@@ -172,7 +185,7 @@ color: #434455;
     line-height: 1.2;
     letter-spacing: 0.02em;
 
-    color: #2E2F42;
+    color: var(--brand-color);
 }
 
 .secondary-text p {
@@ -181,11 +194,11 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
 
-    color: #434455;
+    color: var(--color2);
 }
 
 .bottom {
-    background-color: #2E2F42;
+    background-color: var(--brand-color);
 }
 
 .bottom p {
@@ -194,7 +207,7 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
 
-    color: #E7E9FC;
+    color: var(--color6);
 }
 
 .thirdly-logo {
@@ -208,7 +221,7 @@ color: #434455;
     letter-spacing: 0.03em;
 text-transform: uppercase;
 
-    color: #F4F4FD;
+    color: var(--color3);
 }
 
 /* Portfolio.html */
@@ -231,15 +244,15 @@ text-transform: uppercase;
     letter-spacing: 0.04em;
     text-align: center;
     color: #4D5AE5;
-    background-color: #F4F4FD;
+    background-color: var(--color3);
 }
 
 .pointer:hover {
-    background-color: #4D5AE5;
+    background-color: var(--color1);
 }
 
 .pointer:focus {
-    background-color: #4D5AE5;
+    background-color: var(--color1);
 }
 
 .pointer { cursor: pointer; } 
