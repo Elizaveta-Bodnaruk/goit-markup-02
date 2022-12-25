@@ -235,14 +235,6 @@ color: var(--brand-color);
 /* Main navigation */
 
 .pointer { 
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    
-    width: 116px;
-    height: 48px;
-
     font-family: Roboto, sans-serif;
     font-weight: 700;
     line-height: 1.5;
@@ -250,10 +242,11 @@ color: var(--brand-color);
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--color1);
+    background-color: var(--color3);
 }
 
 .pointer:hover {
-    color: var(--color4);
+    color: var(--color1);
     background-color: var(--color1);
 }
 
