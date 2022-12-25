@@ -247,17 +247,17 @@ color: var(--brand-color);
     text-align: center;
     letter-spacing: 0.04em;
 
+    box-sizing: border-box;
+    border: 1px solid var(--color6);
+
     color: var(--color1);
-    background-color: var(--color1);
 }
 
 .pointer:hover {
-    color: var(--color4);
     background-color: var(--color1);
 }
 
 .pointer:focus {
-    color: var(--color4);
     background-color: var(--color1);
 }
 
