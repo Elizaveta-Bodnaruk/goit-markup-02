@@ -255,7 +255,6 @@ color: var(--brand-color);
 }
 
 .pointer:hover {
-    color: var(--color4);
     background-color: var(--color1);
 }
 
